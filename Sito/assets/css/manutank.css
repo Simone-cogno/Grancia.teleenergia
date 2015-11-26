@@ -54,7 +54,7 @@ textarea								{font-family: Arial, Helvetica, sans-serif; width:320px; border:
 
 #ContentCenter							{width:296px;  float:left; margin-right:15px;}
 
-#ContentRight							{width:296px;  float:left;}
+#ContentRight							{width: 100%; float:left;}
 
 #ContentInt								{width:607px;  padding-bottom:10px;float:left; margin-right:15px;}
 
