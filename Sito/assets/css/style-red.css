@@ -7386,3 +7386,124 @@ Image placeholders: placemi.com
 }
 
 /*# sourceMappingURL=style-red.css.map */
+
+
+
+/* Spacer Pietro */
+
+.no-padding {
+    padding: 0 !important;
+}
+.padding-15 {
+    padding: 15px !important;
+}
+.padding-30 {
+    padding: 30px !important;
+}
+
+.padding-40 {
+    padding: 40px !important;
+}
+.pt-15{
+	padding-top:15px;
+}
+.pt-30{
+	padding-top:30px;
+}
+.pt-45{
+	padding-top:45px;
+}
+
+.pl-15{
+	padding-left:15px;
+}
+
+.mt-15{
+	margin-top:15px;
+}
+.mt-30{
+	margin-top:30px;
+}	
+
+.white{
+	color:white;
+}
+.w100{
+	width:100%;
+}
+/* text Pietro */
+.text p{
+	margin-top:25px;
+}
+/* Design Pietro */
+.navbar-red{
+	background: linear-gradient(180deg, #F03E41 10%, #FC4F52 48%, #dd2528 100%);
+	border-color: #FC4F52;
+	margin-to:15px;
+	margin-bottom:15;
+	padding-top:1px !important;
+	padding-bottom:1px !important;
+	padding-left:10px;
+}
+
+.fascia{
+	background-color: #6A6666;
+	width:75%;
+	position:absolute;
+	left:-15px;
+	padding-left:15px;
+	box-shadow:5px 2px 0px rgba(95,95,95,0.55) ;
+}
+
+.navred-top{
+	background: linear-gradient(180deg, #F03E41 10%, #FC4F52 48%, #dd2528 100%);
+	border-color: #FC4F52;
+	border-color:#FC4F52;
+}
+.navred-top ul li a{
+	color:white;
+}
+
+.navred{
+	background: linear-gradient(180deg, #F03E41 10%, #FC4F52 48%, #dd2528 100%);
+	border-color: #FC4F52;
+	margin-top:15px;
+	margin-bottom:15;
+	padding-top:1px !important;
+	padding-bottom:1px !important;
+	padding-left:10px;
+}
+
+.navred:hover{
+		background: linear-gradient(180deg, #A1A1A1 10%, #7C7C7C 48%, #6A6666 100%);
+		border-color: #6A6666;
+}
+
+.navred h4{
+	color:white;
+	font-weight:800;
+	margin-top:8px;
+	margin-bottom:8px;
+}
+
+.navred-on{
+	background: linear-gradient(180deg, #A1A1A1 10%, #7C7C7C 48%, #6A6666 100%);
+	border-color: #6A6666;
+	margin-top:15px;
+	margin-bottom:15;
+	padding-top:1px !important;
+	padding-bottom:1px !important;
+	padding-left:10px;
+}
+
+.navred-on:hover{
+	background: linear-gradient(180deg, #F03E41 10%, #FC4F52 48%, #dd2528 100%);
+	border-color: #FC4F52;
+}
+
+.navred-on h4{
+	color:white;
+	font-weight:800;
+	margin-top:8px;
+	margin-bottom:8px;
+}
