@@ -1,0 +1,21 @@
+a:3:{s:7:"extlang";s:2:"it";s:8:"origFile";s:87:"typo3conf/l10n/it/wizard_sortpages/it.locallang_csh.xml|02-08-2011 00:01:24|version=2.3";s:8:"EXT_DATA";a:4:{s:27:"tx_wizardsortpages.alttitle";s:20:"Wizard Ordina Pagine";s:30:"tx_wizardsortpages.description";s:151:"Ti permette di ordinare le pagine alfabeticamente per titolo, per sotto titolo o per data di creazione, etc.
+Puoi anche invertire l'ordine delle pagine";s:26:"tx_wizardsortpages.details";s:848:"Le pagine dell'albero sono sempre ordinate manualmente. 
+E' possibile muovere le pagine in alto e in basso, ecc. 
+Ma questo wizard ti fornisce un modo veloce per cambiare l'ordine manuale delle sottopagine.
+
+Semplicemente clicca su uno dei link a piè di pagina nella schermata del wizard:
+
+<b>Titolo della pagina</b>
+Ordinerà le pagine sulla base del titolo.
+
+<b>Sottotitolo</b>
+Ordinerà le pagine sulla base del sottotitolo.
+
+<b>Data di modifica</b>
+Ordinerà le pagine sulla base della data di modifica.
+
+<b>Data di creazione</b>
+Ordinerà le pagine sulla base della data di creazione.
+
+<b>Inverti l'ordine attuale</b>
+Cliccare su questo link per invertire l'attuale tipo di ordinamento. Per esempio se vuoi ordinare le pagine alfabeticamente in modo ascendente o discentende dovrai semplicemente ordinarle per titolo e poi invertire l'ordine.";s:25:"_tx_wizardsortpages.image";s:0:"";}}

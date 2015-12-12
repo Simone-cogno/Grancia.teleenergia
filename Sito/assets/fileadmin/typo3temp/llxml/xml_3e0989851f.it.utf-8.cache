@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:74:"typo3conf/ext/rt_abstractbox/locallang.xml|06-10-2011 15:05:04|version=2.3";s:10:"LOCAL_LANG";a:2:{s:7:"default";a:2:{s:9:"pi1_title";s:12:"Abstract Box";s:24:"pi1_plus_wiz_description";s:51:"Box with abstract, image and link of selected pages";}s:2:"it";s:49:"typo3conf/l10n/it/rt_abstractbox/it.locallang.xml";}}

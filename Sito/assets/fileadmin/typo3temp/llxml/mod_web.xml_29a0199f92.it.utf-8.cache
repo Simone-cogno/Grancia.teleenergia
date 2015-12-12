@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:71:"typo3/sysext/lang/locallang_mod_web.xml|14-09-2011 11:45:45|version=2.3";s:10:"LOCAL_LANG";a:2:{s:7:"default";a:2:{s:21:"mlang_labels_tablabel";s:28:"Webpages and databasecontent";s:14:"mlang_tabs_tab";s:3:"Web";}s:2:"it";s:47:"typo3conf/l10n/it/lang/it.locallang_mod_web.xml";}}

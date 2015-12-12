@@ -43,9 +43,7 @@
 </head>
 
 <!-- Preloader -->
-<div id="preloader">
-    <div id="status">&nbsp;</div>
-</div>
+
 
 <body>
 
@@ -56,7 +54,7 @@
         <header id="header-full-top" class="hidden-xs header-full">
             <div class="container">
                 <div class="header-full-title">
-                    <h1 class="animated fadeInRight"><img src="assets/img/index/LogoManutank.jpg"></h1>
+                    <h1><img src="assets/img/index/LogoManutank.jpg"></h1>
                 </div>
                
             </div>
@@ -72,8 +70,7 @@
                         <span class="sr-only">Toggle navigation</span>
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a id="ar-brand" class="navbar-brand hidden-lg hidden-md hidden-sm" href="index.html">Artificial
-                        <span>Reason</span></a>
+                    <a  class="navbar-brand hidden-lg hidden-md hidden-sm" href="index.html"><img height="40" src="assets/img/index/LogoManutank.jpg"></h1></a>
                 </div>
                 <!-- navbar-header -->
 
@@ -82,19 +79,19 @@
                 <div class="collapse navbar-collapse navred-top" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav" style="padding-left: 20px;">
                         <li style="min-width: 120px; border-left: solid 1px grey;border-right: solid 1px grey; text-align: center;">
-                            <a href="javascript:void(0);" >Home</a>
+                            <a href="index_manutank.html" >Home</a>
                         </li>
                         <li style="min-width: 120px; border-right: solid 1px grey; text-align: center">
-                            <a href="javascript:void(0);"  >Servizi</a>
+                            <a href="m-servizi.html"  >Servizi</a>
                         </li>
                         <li style="min-width: 280px; ;border-right: solid 1px grey; text-align: center;">
-                            <a href="javascript:void(0);" >Vantaggi dell'olio combustibile</a>
+                            <a href="m-vantaggi.html" >Vantaggi dell'olio combustibile</a>
                         </li>
                         <li style="min-width: 120px; border-right: solid 1px grey; text-align: center">
-                            <a href="javascript:void(0);" >Offerta</a>
+                            <a href="m-offerta.html" >Offerta</a>
                         </li>
                         <li style="min-width: 120px; border-right: solid 1px grey; text-align: center">
-                            <a href="javascript:void(0);" >Contatti</a>
+                            <a href="m-contatti.html" >Contatti</a>
                         </li>
                     </ul>
                 </div>
@@ -160,42 +157,28 @@
                                         <h3 class="white">Accesso WebVision</h3>
                                         <!-- Proposta Pietro-->
                                         <div class="form-group white">
-                            <label for="InputUserName">Username</label>
-                            <input type="text" class="form-control" id="InputUserName">
-                            <label for="InputUserName">Password</label>
-                            <input type="text" class="form-control" id="InputUserName">
-                        </div>
                         <!-- Proposta Pietro ends-->
-                        	
+                                        <label for="userid">Username</label>
                                         <input type="hidden" name="userid_DESC" value="User Id">
 
-                                        <div style="padding:20px 0 10px 0">
-                                            <div style="width:90px; float:left; color:#fff">Username:</div>
-                                            <div style="width:120px; float:left"><input type="text" name="userid"
-                                                                                        id="userid"></div>
-                                            <div style="clear:both"></div>
-                                        </div>
-                                        <input type="hidden" name="password_DESC" value="Password">
+                                        <input class="form-control" type="text" name="userid" id="userid">
 
-                                        <div style="padding:10px 0 5px 0">
-                                            <div style="width:90px; float:left; color:#fff">Password:</div>
-                                            <div style="width:120px; float:left"><input type="password" name="password"
-                                                                                        id="password"></div>
-                                            <div style="clear:both"></div>
-                                        </div>
+                                        <input type="hidden" name="password_DESC" value="Password">
+                                        <label for="password">Password</label>
+                                        <input class="form-control" type="password" name="password"
+                                                                                        id="password">
+
 
                                         <input type="hidden" name="lostpassword_DESC" value="">
                                         <input type="hidden" name="lostpassword" value="" class="input-testo" size="15"><br>
                                         <a href="http://www.qfp.it/m2m2/login.php?ACTION=LOST" target="_blank">Ho
                                             dimenticato la password</a>
-
-                                        <div style=" padding: 10px;text-align:right">
-                                            <input type="submit" class="btn btn-danger" style="min-width: 120px"
-                                                   name="button2" id="button2" value="Entra" class="entra">
+                                        <input type="submit" class="btn btn-danger" style="min-width: 120px"
+                                               name="button2" id="button2" value="Entra" class="entra">
                                         </div>
                                     </form>
                                     <h2 style="margin-top: 10px;font-size: 120%;">
-                                        <a href="http://teleenergia.ch/gestitank_mobile/verifica.php"><u>&gt;&gt;
+                                        <a href="assets/gestitank_mobile/verifica.php"><u>&gt;&gt;
                                             Scarica l'App Gestitank Mobile</u></a>
                                     </h2>
                                     
@@ -213,37 +196,39 @@
                 <div class="row">
 
                         <div class="col-sm-3">
-                            <div class="thumbnail">
-                                <img src="assets/img/index/boxrevisione_01.jpg" alt="..." class="w100">
+                            <div class="thumbnail" style="min-height: 363px">
+                                <a href="m-servizi.html"><img src="assets/img/index/boxrevisione_01.jpg" alt="..." class="w100"></a>
                                 <div class="caption">
-                                    <h3>Revisione Cisterne</h3>
+                                    <h3><a href="m-servizi.html">Revisione Cisterne</a></h3>
                                     <p>Oltre 50 anni di esperienza e tecnici con diploma federale ci permettono di essere i leader cantonali nel campo della revisione, dell’aggiornamento e della posa di cisterne.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="thumbnail">
-                                <img src="assets/img/index/boxrisanamentosmall_01.jpg" alt="..." class="w100">
+                            <div class="thumbnail" style="min-height: 363px">
+                                <a href="m-risanamento.html"><img src="assets/img/index/boxrisanamentosmall_01.jpg" alt="..." class="w100"></a>
                                 <div class="caption">
-                                    <h3>Risanamento e posa serbatoi</h3>
+                                    <h3><a href="m-risanamento.html">Risanamento e posa serbatoi</a></h3>
                                     <p>Siamo in grado di prenderci cura di ogni tipo di cisterna o serbatoio, i nostri tecnici sono a vostra disposizione per una consulenza senza impegno.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="thumbnail">
-                                <img src="assets/img/index/LogoManutank.jpg" alt="..." class="w100">
+                            <div class="thumbnail" style="min-height: 363px">
+                                <a href="m-gestitank.html"><img  src="assets/img/index/LogoManutank.jpg" alt="..." class="w100"></a>
                                 <div class="caption">
-                                    <h3>Gestitank</h3>
+                                    <h3><a href="m-gestitank.html">Gestitank</a></h3>
                                     <p>Rileviamo 24 su 24 e 7 giorni su 7 il livello di tank della vostra cisterna e inviamo mail d’allarme in caso di basso livello.</p>
+                                    <br/>
+                                    <br/>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="thumbnail">
-                                <img src="assets/img/index/tank-gas_small_01.jpg" alt="..." class="w100">
+                            <div class="thumbnail" style="min-height: 363px">
+                                <a href="m-tankallarm.html"><img src="assets/img/index/tank-gas_small_01.jpg" alt="..." class="w100"></a>
                                 <div class="caption">
-                                    <h3>Tank Allarm & Gas Allarm</h3>
+                                    <h3><a href="m-tankallarm.html">Tank Allarm & Gas Allarm</a></h3>
                                     <p>Disponiamo delle migliori tecnologie per allarmarvi in caso di fuoriuscita di olio combustibile dalla vostra cisterna e quindi ottemperare alla legge.</p>
                                 </div>
                             </div>
@@ -259,7 +244,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <h3 class="footer-widget-title">Sitemap</h3>
+                        <h3 class="footer-widget-title">Manutank</h3>
                         <div class="FooterItem"><a href="/manutank" title="Home">Home</a></div>
                         <div class="FooterItem"><a href="/manutank" title="Home">Servizi</a></div>
                         <div class="FooterItem"><a href="/manutank" title="Home">Vantaggi dell'olio combustibile</a></div>
@@ -284,16 +269,16 @@
                         </ul>
                     </div>
                     <div class="col-md-3">
-                        <div class="footer-widget">
-                            <h3 class="footer-widget-title">Recent Works</h3>
+                        <div class="footer-widget" style="padding-top: 50px">
+
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
-                                    <a href="#" class="thumbnail"><img src="assets/img/index/LogoManutank.jpg"
-                                                                       class="img-responsive" alt="Image"></a>
+                                    <a href="#" class="thumbnail"><img height="100" src="assets/fileadmin/templates/manutank/img/TelegestioneC.png"
+                                                                        class="img-responsive" alt="Image"></a>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
-                                    <a href="#" class="thumbnail"><img src="assets/img/index/timbro.jpg"
-                                                                       class="img-responsive" alt="Image"></a>
+                                    <a href="#" class="thumbnail"><img height="100" src="assets/fileadmin/templates/telegestione/img/TeleenergiaC.png"
+                                         class="img-responsive"  alt="Image"></a>
                                 </div>
 
                             </div>

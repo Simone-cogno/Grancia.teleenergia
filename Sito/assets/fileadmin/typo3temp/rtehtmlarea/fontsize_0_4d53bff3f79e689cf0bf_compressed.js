@@ -1,0 +1,1 @@
+{"options":[{"text":"Default size","value":"none"},{"text":"Extra small","value":"8px"},{"text":"Very small","value":"9px"},{"text":"Small","value":"10px"},{"text":"Medium","value":"12px"},{"text":"Large","value":"16px"},{"text":"Very large","value":"24px"},{"text":"Extra large","value":"32px"}]}
