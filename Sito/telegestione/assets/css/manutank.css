@@ -1,0 +1,590 @@
+
+
+/*LOGO*/
+#Logo 									{width:229px; height:113px; position:absolute; top:2px; left:10px;}
+
+/*HOME*/
+#Conteiner								{width:100%; height:100%; margin:auto; position:relative; z-index:50}
+
+#Home									{width:950px; height:100%; margin:40px auto auto auto; background:#fff; position:relative; border:1px solid #4b4b4b; position:relative; z-index:100}
+
+#Lingua									{width:31px; height:68px; position:absolute; top:0; right:-32px;}
+
+.LinguaTab a:link, .LinguaTab a:visited	{width:26px; height:28px; padding:5px 0 0 5px; color:#fff; text-decoration:none; background:URL(img/LinguaTab.png); display:block}
+
+.LinguaTab a:hover						{width:22px; height:28px; padding:5px 0 0 1px; color:#0E69AF; background:URL(img/LinguaTabHover.png)}
+
+.LinguaTabActive						{width:22px; height:28px; padding:5px 0 0 1px; color:#0E69AF; background:URL(img/LinguaTabHover.png)}
+
+
+/*HEADER*/
+
+#HeaderLogo								{width:950px; height:120px; position: relative; border-bottom:1px solid #227255; background:URL(img/BGHeaderLogoManutank.jpg)}
+
+#Header									{width:950px; height:270px; position: relative; margin:0 0 0 0; border-bottom:1px solid #000}
+
+#HeaderImg								{width:600px; height:270px; float:left; background:URL(img/TestataHover.png)}
+
+#HeaderImgNew							{width:950px; height:270px; float:left;z-index:2}
+
+#HeaderBG								{width:950px; height:270px; position:absolute; top:0; left:0; background:URL(img/TestataHover.png); z-index:50}
+
+#HeaderBox								{width:280px; height:170px; padding:15px; line-height:20px; font-style:italic; color:#fff; font-size:13px; position:absolute; top:35px; right:16px; background:URL(img/BGHeaderBox.png); border:1px solid #535353}
+
+#HeaderBox h1							{font-weight:bold; font-size:13px; font-style:italic; color:#fff}
+
+#HeaderText								{width:350px; height:270px; float:left; background:URL(img/BGHeaderText.jpg)}
+
+/*CONT*/
+#Content								{width:920px; padding:20px 15px; margin:auto; position:relative;}
+
+#ContentLeft							{width:296px;  float:left; margin-right:15px;}
+
+#ContentCenter							{width:296px;  float:left; margin-right:15px;}
+
+#ContentRight							{width: 100%; float:left;}
+
+#ContentInt								{width:607px;  padding-bottom:10px;float:left; margin-right:15px;}
+
+#ContentInt	.bodytext					{padding:10px 15px 0 0; line-height:22px;}
+
+#ContentInt	.csc-header-n1				{padding-bottom:10px; border-bottom:1px solid #3E9173; color:#707070}
+
+#ContentInt	.csc-header-n1	h1			{color:#707070}
+
+.BoxHomeManutank						{width:920px; margin-right:15px;}
+
+.BoxHomeManutank2						{width:296px;  float:left;}
+
+/*REFERENZE*/
+
+#ContentIntRef							{width:607px;  float:left; margin-right:15px;}
+
+#ContentIntRef	.bodytext				{padding:10px 15px 0 0; line-height:22px;}
+
+#ContentIntRef	.csc-header-n1			{padding-bottom:10px; margin-bottom:15px; border-bottom:1px solid #3E9173; color:#707070}
+
+#ContentIntRef	.csc-header-n1	h1		{color:#707070}
+
+#ContentIntRef .csc-default				{padding-bottom:10px;}
+
+#ContentIntRef a:link, 	#ContentIntRef a:visited	{color:#3E9173}
+
+.BoxHome								{width:294px; height:250px; margin-bottom:15px; border:1px solid #494949; position:relative; z-index:0;}
+
+.BoxHome2						{width:216px; height:250px;float:left; margin:0 15px 15px 0; border:1px solid #494949; position:relative; z-index:0;}
+
+.BoxHome2Last						{width:216px; height:250px;float:left; margin:0 0 15px 0; border:1px solid #494949; position:relative; z-index:0;}
+
+.BoxHomeLungo							{ padding:10px; margin-bottom:15px; background:#3e9173; position:relative; z-index:0}
+
+.BoxHomeLungoInt							{width:276px; min-height:455px; padding:10px; margin-bottom:15px; background:#3e9173; position:relative; z-index:0}
+
+.BoxHomeLungoInt .csc-default				{margin-top:75px;}
+
+.BoxHomeLungoContatti					{width:276px; /*height:415px;*/ padding:50px 10px 10px 10px; margin-bottom:15px; background:#3e9173; position:relative; z-index:0}
+
+.BoxHomeLungoContatti p					{color:#fff; line-height:20px;}
+
+#FasciaHome								{width:907px; height:35px; position:relative; background:URl(img/fascia.png); z-index:50}
+
+#Fascia									{width:907px; height:33px; position:relative; background:URl(img/FasciaContent.png); z-index:50}
+
+#ContentHomeLeft						{width:675px; padding-right:15px; float:left}
+
+#ContentHomeRight						{width:200px; float:left}
+
+/*BOX*/
+#BoxContainer							{width:850px}
+
+#BoxBianco								{background:URL(/parquet-box-bianco.png) no-repeat}
+
+#BoxBiancoLungo							{background:URL(/parquet-box-bianco-lungo.png) no-repeat}
+
+/*MENU*/
+
+#menuNew								{width: 450px; position:absolute; top:15px; left:162px; text-align: left; background:#367639; z-index:1}
+
+#menuNew ul								{height: 25px;margin: auto;padding:2px; position: relative; display: block;}
+
+#menuNew li								{list-style: none;float: left; display: block;}
+
+#menuNew ul ul							{visibility: hidden; position: absolute; top: 21px; margin-left:-7px}
+
+#menuNew ul ul.active2					{visibility:visible; display:block;}
+
+#menuNew li a							{height: 25px; display: block; text-decoration:none; text-align: center; line-height:22px; font-size: 11px; color: #fff; outline:none; margin:1px 0;}
+
+#menuNew li a:hover, #Beta_menuNew li a:focus, #Beta_menuNew li a:active {color: #D3E1D2; }
+
+#menuNew ul li:hover ul					{visibility:visible;z-index:2;}
+
+#menuNew li li a						{width: auto; padding:0 5px; text-align: center; font-size: 12px;color: #fff; font-weight: normal;outline:none; border:0;}
+
+#menuNew li li a:hover					{color: #D3E1D2; border:0;}
+
+.Menu1									{margin-right:27px}
+
+.active										{visibility:visible; display:block;}
+
+
+/*TASTO RICHIESTA*/
+.RichiestaButton 							{font-family: Arial, Helvetica, sans-serif; width:210px; height:60px; color: #0e69af; font-size:16px; font-weight:bold; background:URL(img/Richiesta.png); outline:none; border:none; cursor:default; cursor:pointer; margin:0}
+
+.RichiestaButton:hover 						{color:#B4B4B4; border:none; background:URL(img/RichiestaHover.png);}
+
+/*OVERLAYER*/
+#banner2 									{position:absolute; right:0; top:35px; z-index:50; background:#FFF; width:306px; text-align:center; border:1px solid #A44137;}
+
+#banner 									{position:absolute; right:0; top:20px; z-index:50; font-size:12px; color:#000; background:#A44137; width:308px; height:15px; text-align:center; font-weight:bold; }
+#banner a:link, #banner a:visited			{color:#FFF; text-decoration:none;}
+
+#banner a:hover, #banner a:focus, #banner a:active{color:#000; text-decoration:none;}
+
+/*PAGINAZIONE*/
+.Paginazione								{color:#FFF; font-size:18px;}
+
+.Paginazione a:link,.Paginazione a:visited	{color:#FFF; text-decoration: underline; }
+
+.Paginazione a:hover						{color:#0e69af;text-decoration: underline; }
+
+.toggleopacity img							{filter:alpha(opacity=70);opacity: 0.7;}
+
+.toggleopacity:hover img					{filter:alpha(opacity=100);opacity: 1;}
+
+.SpanArancione								{color:#0e69af}
+
+#Offerta a:link, #Offerta a:visited			{width:125px; height:40px; padding:10px 10px 0 0; position:absolute; top:220px; right:0; text-align:right; font-weight: bold; color: #fff; background:URL(img/ButtonOfferta.png)}
+
+#Offerta a:hover							{color:#0e69af; background:URL(img/ButtonOffertaHover.png)}
+
+.Active	a: link,  .Active	a: visted 		{text-decoration: none; background:#788954; display:block}
+
+/* BOX HOME*/
+
+#BoxHome									{min-height:300px; padding:15px 10px; line-height:22px; margin-bottom:10px;}
+
+#BoxHome img								{width:266px; height:125px; border:1px solid #4B4D5A; margin:10px 0 0 0;}
+
+
+#ContentBoxHome								{width:268px;}
+
+#ContentBoxHome	.csc-default 				{width:268px; height:320px; margin-bottom:5px; background:URL(img/BGBoxHomeSvega.png)}
+
+
+#ContentBoxHome p							{height:150px; padding:0 5px}
+
+/*CONTENT PROFILO*/
+
+#ContentProfilo								{font-size:14px; line-height:24px;}
+
+#ContentProfilo .csc-default					{padding-bottom:20px;}
+
+#ContentProfilo h1							{padding-bottom:10px; border-bottom:1px solid #4B4D5A}
+
+/*PORTFOLIOBOX*/
+
+#ContentPortfolio							{width:877px;}
+
+#ContentPortfolio img						{/*width:558px; height:360px;*/ border:1px solid #4B4D5A; margin:10px 0 0 0;}
+
+#ContentPortfolio h1						{padding-top:5px;}
+
+#ContentPortfolio p							{padding:5px 0; line-height:20px;}
+
+#ContentPortfolio .csc-default				{padding:5px 5px 25px 5px; margin-bottom:10px; background:URL(img/BGBoxHomeSvega.png) bottom repeat-x; position:relative}
+
+/*#ContentBoxHome	.csc-default 				{width:268px; height:320px; margin-bottom:5px; background:URL(img/BGBoxHomeSvega.png)}*/
+
+
+/*#ContentBoxHome p							{height:150px; padding:0 5px}*/
+
+/*TASTO RICHIEDI*/
+
+.Richiedi a:link, .Richiedi a:visited	{width:155px; height:40px; position:absolute; bottom:10px; right:10px; background:URL(img/Richiedi.png); display:block}
+
+.Richiedi a:hover						{background:URL(img/RichiediHover.png); }
+
+#menu h1								{font-size:14px; padding:0 0 5px 15px; }
+
+/*NEWS*/
+
+.FotoNewsBox							{width:193px; height:140px; float:left; }
+
+.FotoNewsBox img						{border:1px solid #4B4D5A}
+
+.ContentNews							{width:350px; padding-left:10px; float:left; font-size:12px;}
+
+.NewsMiddle								{width:556px; margin:10px 0; padding: 10px; background:#fff URL(img/BGBoxNew.png) bottom repeat-x; position:relative}
+
+.TitoloBoxNews h2						{color: #0e69af; font-size:14px; font-weight: normal; margin:0; }
+
+.LeggiNews a:link, .LeggiNews a:visited		{width:43px; height:21px; padding:0 0 0 10px;  position:absolute; bottom:5px; right:5px; font-size:10px; color:#fff; background:URL(img/info.png); }
+
+.LeggiNews a:hover							{color:#fff; background:URL(img/infoHover.png); text-decoration: none;}
+
+.tx-powermail-pi1 .tx-powermail-pi1_formwrap_45							{background: none repeat scroll 0 0 #8F909B;
+    margin: 0 auto;
+    padding: 2px 10px;
+    width: 249px;}
+
+.tx-powermail-pi1 legend									{padding:10px 0; color:#3E9173; font-style:italic; font-size:14px}
+
+.tx-powermail-pi1 .tx-powermail-pi1_fieldset		{border:none}
+
+.tx-powermail-pi1 .powermail_submit    {background: url("img/InviaManutank.png") repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    width: 155px;
+    font-size:0;}
+
+.entra    {background: url("img/InviaManutank.png") repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    width: 155px;
+    font-size:0;}
+
+.tx-powermail-pi1 .powermail_submit_uid10    {background: url("img/InviaManutank.png") repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    width: 155px;
+    font-size:0;
+    margin:0}
+
+.tx-powermail-pi1 .tx-powermail-pi1_fieldset_1			{background: none repeat scroll 0 0 #fff; margin:0; padding:0; width: 249px;}
+
+.tx-powermail-pi1 .tx-powermail-pi1_fieldset_2			{background:#fff}
+
+.tx-powermail-pi1 .tx-powermail-pi1_fieldset_3			{background:#fff; margin:0; padding:0; width: 249px;}
+
+.tx-powermail-pi1 .tx-powermail-pi1_fieldset_4			{background:#fff; margin:0; padding:0;}
+
+.tx-powermail-pi1 .tx-powermail-pi1_fieldset_4	fieldset		{background:#fff; margin:0; padding:0;}
+
+.tx-powermail-pi1 .tx-powermail-pi1_thx					{background: none repeat scroll 0 0 #8F909B; margin:auto; padding:10px; width: 249px;}
+
+#powermaildiv_uid1		{padding-top:10px; width:559px;}
+
+#powermaildiv_uid11		{padding-top:10px; width:559px;}
+
+#powermaildiv_uid2		{padding-top:10px;width:559px;}
+
+#powermaildiv_uid12		{padding-top:10px;padding-top:10px; width:559px;}
+
+#powermaildiv_uid3		{padding-top:10px;width:559px;}
+
+#powermaildiv_uid13		{padding-top:10px; width:559px;}
+
+#powermaildiv_uid4		{padding-top:10px;width:559px;}
+
+#powermaildiv_uid14		{padding-top:10px; width:559px;}
+
+#powermaildiv_uid5		{padding-top:10px;width:559px;}
+
+#powermaildiv_uid6		{padding-top:10px;width:559px;}
+
+#powermaildiv_uid7		{padding-top:10px;width:559px;}
+
+#powermaildiv_uid8		{padding-top:10px;width:249px;}
+
+#powermaildiv_uid9		{padding-top:10px;width:249px;}
+
+#powermaildiv_uid10		{padding:10px 0;;width:559px;}
+
+#powermaildiv_uid11		{padding:10px 0;;width:559px;}
+
+#powermaildiv_uid12		{padding:10px 0;;width:559px;}
+
+#powermaildiv_uid13		{padding:10px 0;;width:559px;}
+
+#powermaildiv_uid14		{padding:10px 0;;width:559px;}
+
+#powermaildiv_uid15		{padding:10px 0;;width:559px;}
+
+#powermaildiv_uid16		{padding:10px 0;;width:559px;}
+
+#powermaildiv_uid17		{padding:10px 0;;width:559px;height:70px;}
+#powermaildiv_uid18		{padding:10px 0;;width:559px;}
+
+#powermaildiv_uid19		{padding:10px 0;width:559px;}
+
+#powermaildiv_uid20		{padding:10px 0;width:559px;}
+
+#powermaildiv_uid21		{padding:10px 0;width:559px;}
+
+#powermaildiv_uid22		{padding:10px 0;width:559px;}
+
+#powermaildiv_uid23		{padding:10px 0;width:559px;}
+
+#powermaildiv_uid24		{padding:10px 0;width:559px;}
+
+#powermaildiv_uid25		{padding:10px 0;width:559px;}
+
+#powermaildiv_uid28		{padding:10px 0;width:559px;}
+
+#powermaildiv_uid29		{padding:10px 0;width:559px;}
+
+#powermaildiv_uid30		{padding:10px 0;width:559px;height:70px;}
+
+#powermaildiv_uid31		{padding:10px 0;width:559px; }
+
+#powermaildiv_uid32		{padding:10px 0;width:559px; }
+
+#powermaildiv_uid33		{padding:10px 0;width:559px; }
+
+#powermaildiv_uid34		{padding:10px 0;width:559px;height:70px;}
+
+#powermaildiv_uid35		{padding:10px 0;width:559px;}
+
+#powermaildiv_uid35	fieldset	{border:none}
+
+#powermaildiv_uid36		{padding:10px 0;width:559px;}
+
+#powermaildiv_uid36	fieldset	{border:none}
+
+
+
+
+.tx-powermail-pi1 .powermail_mandatory	{color:#3E9173}
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_1 label {color:#v; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_2 label {color:#ED3A33; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_3 label {color:#ED3A33; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_4 label {color:#ED3A33; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_5 label {color:#ED3A33; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_6 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_7 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_8 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_9 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_10 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_11 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_12 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_13 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_14 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_15 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_16 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_17 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_18 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_19 label {color:#ED3A33; width:110px; font-weight:normal;}
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_20 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_21 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_22 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_23 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_24 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_25 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_26 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_28 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_29 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_30 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_31 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_32 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_33 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+.tx-powermail-pi1 .tx_powermail_pi1_fieldwrap_html_34 label {color:#ED3A33; width:110px; font-weight:normal; }
+
+#powermaildiv_uid35 .tx_powermail_pi1_fieldwrap_html_checkbox_title	{color:#ED3A33; width:180px; padding-bottom:10px;font-weight:normal; font-size:12px; font-style:normal;}
+
+#powermaildiv_uid36 .tx_powermail_pi1_fieldwrap_html_checkbox_title	{color:#ED3A33; width:180px; padding-bottom:10px;font-weight:normal; font-size:12px; font-style:normal; }
+
+
+fieldset.tx-powermail-pi1_fieldset input.powermail_text {
+    background: #F1F1F5;
+    border: 1px solid #4B4D5A;
+    padding: 2px;
+
+}
+
+fieldset.tx-powermail-pi1_fieldset textarea.powermail_text {
+    background: #F1F1F5;
+    border: 1px solid #4B4D5A;
+    padding: 2px;
+
+}
+
+fieldset.tx-powermail-pi1_fieldset input.powermail_submit {
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+fieldset.tx-powermail-pi1_fieldset input.powermail_text, fieldset.tx-powermail-pi1_fieldset input.powermail_date, fieldset.tx-powermail-pi1_fieldset input.powermail_datetime, fieldset.tx-powermail-pi1_fieldset textarea.powermail_textarea {
+    background: #F1F1F5;
+    border: 1px solid #4B4D5A;
+    padding: 2px;
+}
+
+.tx-powermail-pi1 .powermail_input		{width:240px;}
+
+fieldset.tx-powermail-pi1_fieldset input.powermail_text, fieldset.tx-powermail-pi1_fieldset input.powermail_date, fieldset.tx-powermail-pi1_fieldset input.powermail_datetime, fieldset.tx-powermail-pi1_fieldset textarea.powermail_textarea {
+    width: 300px; float:right;
+}
+
+fieldset.tx-powermail-pi1_fieldset textarea.powermail_textarea {
+    float:right
+}
+
+fieldset.tx-powermail-pi1_fieldset_2 input.powermail_text, fieldset.tx-powermail-pi1_fieldset_2 input.powermail_date, fieldset.tx-powermail-pi1_fieldset_2 input.powermail_datetime, fieldset.tx-powermail-pi1_fieldset_2 textarea.powermail_textarea {
+    width: 300px; float:right
+}
+
+
+fieldset.tx-powermail-pi1_fieldset_4 .powermail_check_inner	{width:100px; float:left}
+
+/*CONTATTI*/
+
+#menuContatti .csc-default					{width:269px; height:189px; margin:10px auto 15px auto; background:#8F909B}
+
+#menuContatti .csc-default .csc-header-n1	{width:249px; height:20px; padding:10px; border-bottom:1px solid #EBEBEB; background:URL(img/HeaderContatti.png)}
+
+#menuContatti .bodytext						{padding:10px; line-height:22px; font-size:14px; color:#EBEBEB}
+
+/*PORTFOLIO*/
+
+.portfolio-image					{width:478px; height:291px; float:left}
+
+.portfolio-box						{width:360px; margin-left:15px; float:left}
+
+.portfolio-title					{padding:5px 0 10px 0}
+
+
+.portfolio-description       		{line-height: 20px; padding: 5px 0;}
+
+.portfolio-link	a:link, .portfolio-link a:visited					{width:155px; height:40px; position:absolute; bottom:10px; right:10px; background:URL(img/Richiedi.png); display:block; cursor:pointer; font-size:0px}
+
+.portfolio-link a:hover				{background:URL(img/RichiediHover.png); }
+
+/*NEWS*/
+
+#FotoContentNews					{width:250px; margin-right:15px; float:left}
+
+#NewsContentDetail					{line-height:20px;}
+
+/*MENU TESTATA*/
+
+.MenuTestata a:link, .MenuTestata a:visited		{width:78px; height:27px; padding-top:10px; text-align:center; float:left; background:URL(img/BGMenuTestata.png)}
+
+.MenuTestata a:hover							{width:78px; height:27px; padding-top:10px; text-align:center; float:left; background:URL(img/BGMenuTestataHover.png); text-decoration:none}
+
+.TitoloHome										{padding:20px 10px 10px 10px; border-bottom:1px solid #19597D}
+
+#DX									{padding:20px 0 0 10px}
+
+/*FOOTER BOX*/
+
+.FooterBox							{width:238px; height:158px; padding:10px; float:left; margin-right:20px; background:URL(img/BGBoxFooter.png) repeat; border:1px solid #1C445E; position:relative}
+
+.BoxLink a:link, .BoxLink a:visited	{width:39px; height:27px; padding-left:30px; position:absolute; bottom:5px; right:10px; color:#000000; background:URL(img/BoxLink.png); display:block}
+
+.BoxLink a:hover					{color:#000000;}
+
+.Invia								{width:80px; height:22px; position:absolute; bottom:5px; right:30px; background:URL(img/Invia.png); color:#fff; border:none; cursor: pointer}
+
+.Invia:hover						{background:URL(img/InviaHover.png); color:#fff;}
+
+/* BOX HOME PAGE */
+
+.BoxHomeImg								{width:294px; height:110px; position:relative;  border-bottom:1px solid #494949;}
+
+.BoxHomeImg2							{width:216px; height:110px; position:relative;  border-bottom:1px solid #494949;}
+
+.BoxTitle a:link, .BoxTitle a:visited   {width:216px; height:30px; padding:5px 0 0 10px; position:absolute; bottom:0; left:0; text-decoration:none; background:URL(img/BGBoxTitle.png)}
+
+.BoxTitle a:hover   					{background:URL(img/BGBoxTitleHover.png)}
+
+.BoxTitle2 a:link, .BoxTitle2 a:visited   {width:206px; height:30px; padding:5px 0 0 10px; position:absolute; bottom:0; left:0; text-decoration:none; background:URL(img/BGBoxTitle2.png)}
+
+.BoxTitle2 a:hover   					{background:URL(img/BGBoxTitle2.png)}
+
+.BoxIcona								{width:103px; height:93px; position:absolute; bottom:5px; right:10px; z-index:1}
+
+.BoxIcona2								{width:135px; height:93px; position:absolute; bottom:5px; right:10px; z-index:1}
+
+.BoxTesto								{width:180px; position:absolute; top:125px; left:10px; line-height:20px; z-index:2}
+
+.BoxTesto2								{width:150px; position:absolute; top:125px; left:10px; line-height:20px; z-index:2}
+
+.BGBox a:link, .BGBox a:visited			{width:294px; height:125px; position:absolute; bottom:0; left:0; background:URL(img/BGBoxTGE.png); z-index:50; font-size:0px; color:transparent}
+
+.BGBox a:hover							{background:URL(img/BGBoxTGEHover.png); z-index:50; font-size:0px; color:transparent}
+
+.BGBox2 a:link, .BGBox2 a:visited			{width:294px; height:125px; position:absolute; bottom:0; left:0; background:URL(img/BGBoxTGEHover.png); z-index:50}
+
+.BGBox2 a:hover							{background:URL(img/BGBoxTGE.png); z-index:50}
+
+.BGBox3 a:link, .BGBox3 a:visited			{width:216px; height:125px; position:absolute; bottom:0; left:0; background:URL(img/BGBoxTGE.png); z-index:50; font-size:0px; color:transparent}
+
+.BGBox3 a:hover							{background:URL(img/BGBoxTGEHover.png); z-index:50; font-size:0px; color:transparent}
+
+/*BOX VANTAGGI*/
+
+#Vantaggi								{padding:8px 0 25px 0; position:relative; z-index:50}
+
+.BoxVantaggi							{ margin-bottom:15px; background:#fff; position:relative; z-index:0;}
+
+#FasciaVantaggi							{ position:absolute; top:10px; left:-3px; background:URL(img/VantaggiManutank.png); z-index:5}
+
+#FasciaContatti							{width:160px; height:31px; padding:5px 0 0 10px; position:absolute; top:10px; left:-3px; background:URL(img/Vantaggi.png); z-index:5}
+
+.BoxIconaVantaggi						{width:100px; height:85px; position:absolute; top:0; left:0; z-index:1}
+
+.BoxTestoVantaggi						{width:175px; padding-left:5px; position:absolute; top:10px; right:5px; line-height:20px; z-index:2}
+
+.BGBoxVantaggi a:link, .BGBoxVantaggi a:visited		{width:276px; height:86px; position:absolute; bottom:0; left:0; background:URL(img/BGBoxVantaggi.png); z-index:50; font-size:0px; color:transparent}
+
+.BGBoxVantaggi a:hover								{background:#00577c; z-index:50; font-size:0px; color:transparent}
+
+.menu-int a:link, .menu-int a:visited			{width:256px; height:20px; padding:10px 10px; margin-bottom:10px; font-size:18px; background:URL(img/BGMenuIntManutank.jpg); color:#fff; text-decoration:none; cursor:pointer; display:block}
+
+.menu-int a:hover								{background:URL(img/BGMenuIntManutankHover.jpg); color:#fff;text-decoration:none;}
+
+.selezionato a:link, .selezionato a:visited	{width:256px; height:20px; padding:10px 10px; margin-bottom:10px; font-size:18px; background:URL(img/BGMenuIntManutankHover.jpg); color:#fff; text-decoration:none; cursor:pointer; display:block}
+
+/*LOGHI FOOTER*/
+
+#Telegestione a:link, #Telegestione a:visited	{width:110px; height:110px; float:left; background:URL(img/TelegestioneBN.png); margin-right:25px; display:block; position:relative; z-index:100}
+
+#Telegestione a:hover							{background:URL(img/TelegestioneC.png);}
+
+#Teleenergia a:link, #Teleenergia a:visited	{width:110px; height:110px; float:left; background:URL(img/TeleenergiaBN.png); display:block; position:relative; z-index:100}
+
+#Teleenergia a:hover							{background:URL(img/TeleenergiaC.png);}
+
+
+
+
