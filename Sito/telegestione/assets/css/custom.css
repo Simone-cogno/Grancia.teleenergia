@@ -11,3 +11,9 @@
 .facia h4 h5 h2{
     color: #ffffff !important;
 }
+.vertical-align{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}

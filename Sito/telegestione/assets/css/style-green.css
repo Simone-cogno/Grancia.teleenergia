@@ -3365,13 +3365,11 @@ a.thumbnail.active {
   margin: 0 2px;
 }
 .carousel-section {
-  background-image: url("../img/slide_back.jpg");
   margin-bottom: 40px;
   overflow: hidden;
 }
 .carousel-razon {
-  background-color: #21ba91;
-  background-color: rgba(18, 99, 77, 0.9);
+
 }
 .carousel-razon-dark {
   background-color: #444;
