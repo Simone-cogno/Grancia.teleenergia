@@ -5735,13 +5735,11 @@ a.feature-icon:hover {
 /* Header full */
 /*-------------------------------------------------------------------*/
 .header-full {
-  background-image: linear-gradient(to top, #f0f0f0, #f4f4f4);
+  background-image: linear-gradient(to top, #ffffff, #ffffff);
 }
 .header-full-title {
   float: left;
   overflow: hidden;
-  padding-left: 75px;
-  background-image: url("../img/colors/green/logo_big.png");
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -5900,8 +5898,8 @@ a.feature-icon:hover {
 }
 /* ----- */
 .navbar-header-full {
-  background-color: #f0f0f0;
-  background-image: none;
+  background: linear-gradient(0deg, rgba(32, 150, 110, 0.73) 50%, rgba(33, 151, 111, 0.47) 100%);;
+
   box-shadow: none;
   border-top: solid 1px #ddd;
 }
