@@ -31,8 +31,10 @@
     <link href="assets/css/vendors.css" rel="stylesheet">
     <link href="assets/css/syntaxhighlighter/shCore.css" rel="stylesheet">
 
-    <link href="assets/css/style-red.css" rel="stylesheet" title="default">
+    <link href="assets/css/style-green.css" rel="stylesheet" title="default">
     <link href="assets/css/width-boxed.css" rel="stylesheet" title="default">
+    <link href="assets/css/custom.css" rel="stylesheet" title="default">
+    <link href="assets/css/azienda-servizi-vantaggi.css" rel="stylesheet" title="default">
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -42,6 +44,7 @@
     <![endif]-->
 </head>
 
+<!-- Preloader -->
 
 
 <body>
@@ -53,9 +56,9 @@
         <header id="header-full-top" class="hidden-xs header-full">
             <div class="container">
                 <div class="header-full-title">
-                    <h1><a href="index_telegestione.html"><img src="assets/img/index/LogoManutank.jpg"></a></h1>
+                    <h1><a href="index_telegestione.html"> <img src="assets/fileadmin/templates/telegestione/img/LogoTGE.jpg"></a></h1>
                 </div>
-               
+
             </div>
             <!-- container -->
         </header>
@@ -63,37 +66,40 @@
         <nav class="navbar navbar-default navbar-header-full yamm navbar-static-top" role="navigation" id="header">
 
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
+                <div class="navbar-header" >
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a id="ar-brand" class="navbar-brand hidden-lg hidden-md hidden-sm" href="index.html">Manutank</span></a>
+                    <a  class="navbar-brand hidden-lg hidden-md hidden-sm" href="index.html"><img height="40" src="assets/img/index/LogoManutank.jpg"></h1></a>
                 </div>
                 <!-- navbar-header -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
 
-            <div class="collapse navbar-collapse navred-top" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav" style="padding-left: 20px;">
-                    <li style="min-width: 120px; border-left: solid 1px grey;border-right: solid 1px grey; text-align: center;">
-                        <a href="index_telegestione.html" >Home</a>
+                <div class="collapse navbar-collapse navred-top" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav" style="padding-left: 20px;">
+                        <li style="min-width: 120px; border-left: solid 1px grey;border-right: solid 1px grey; text-align: center;">
+                            <a href="index_telegestione.html" >Home</a>
+                        </li>
+                        <li style="min-width: 120px; border-right: solid 1px grey; text-align: center">
+                            <a href="azienda.html"  >Azienda</a>
+                        </li>
+                        <li style="min-width: 280px; ;border-right: solid 1px grey; text-align: center;">
+                            <a href="servizi-telegestione.html" >Servizi</a>
+                        </li>
+                        <li style="min-width: 120px; border-right: solid 1px grey; text-align: center">
+                            <a href="vantaggi-risparmio.html" >Vantaggi</a>
+                        </li>
+                        <li style="min-width: 120px; border-right: solid 1px grey; text-align: center">
+                        <a href="referenze.html" >Referenze</a>
                     </li>
-                    <li style="min-width: 120px; border-right: solid 1px grey; text-align: center">
-                        <a href="m-servizi.html"  >Servizi</a>
-                    </li>
-                    <li style="min-width: 280px; ;border-right: solid 1px grey; text-align: center;">
-                        <a href="m-vantaggi.html" >Vantaggi dell'olio combustibile</a>
-                    </li>
-                    <li style="min-width: 120px; border-right: solid 1px grey; text-align: center">
-                        <a href="m-offerta.html" >Offerta</a>
-                    </li>
-                    <li style="min-width: 120px; border-right: solid 1px grey; text-align: center">
-                        <a href="m-contatti.html" >Contatti</a>
-                    </li>
-                </ul>
-            </div>
+                        <li style="min-width: 120px; border-right: solid 1px grey; text-align: center">
+                            <a href="contatti.html" >Contatti</a>
+                        </li>
+                    </ul>
+                </div>
                 <!-- navbar-collapse -->
 
             <!-- container -->
@@ -106,88 +112,105 @@
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
-                    <img class="img-responsive" src="assets/img/index/header-image.jpg">
+                    <img class="img-responsive center-block" src="assets/uploads/pics/TestataTGE_New_01.jpg">
 
                 </div>
 
 
             </div>
         </section>
+        <style>
+
+
+        </style>
         <!-- carousel -->
-
-
         <section class="section-lines">
-            <div class="container-fluid">
+            <div class="container-fluid" style="padding-top: 10px">
                 <div class="row" style="pagging:10px">
-                    <div class="col-sm-7">
+                    <div class="col-sm-8">
                         <div class="text">
-                            <h3>Legal Disclaimer</h3>
+                            <h3><strong>Legal Disclaimer</strong></h3>
+                            <hr/>
 
-                         </div>
+                           </div>
                     </div>
-                    <div class="col-sm-5">
+                    <style>
+                        .BoxHomeLungo p{
+                            color: white;
+                        }
+                    </style>
+                    <div class="col-sm-4">
                         <div id="ContentRight">
-                            <div class="BoxHomeLungo">
+                            <div class="BoxHomeLungo" style="padding: 10px;">
                                 <div id="Vantaggi">
-                                <div class="	fascia">
-                                    <h4 class="white"><strong>Manutank</strong></h4>
+                                <div class="fascia">
+                                    <h5 class="white" style="color:white"><strong>Telegestione</strong></h5>
                                 </div>
                                 </div>
                                 <div id="FasciaVantaggi"></div>
-								<div class="padding-15"></div>
-                                <div class="padding-15"></div>
-                                <p style="color: white">Manutank SA è una società di revisione cisterne fondata nel 1960 con sede a Lugano, da quella data ci occupiamo della manutenzione del vostro tank. Quando fondammo la ditta pochi avrebbero scommesso che un giorno il Ticino sarebbe stato confrontato con i gravi e preoccupanti problemi di inquinamento odierni.
-                                    Manutank, già allora si batteva per una maggior sicurezza ecologica degli impianti di riscaldamento garantendo uno dei primi servizi professionali di risorse, aggiornamento, progettazione e posa delle cisterne combustibile.
+                                <div class="padding-20"></div>
 
-                                    Oggi, Manutank può essere considerata come essere il leader nel suo settore specifico. La sua esperienza di mezzo secolo è la miglior garanzia di qualità, serietà ed affidabilità.</p>
+                                    <!--  Header: [begin] -->
+
+                                    <!--  Header: [end] -->
+
+                                    <!--  Text: [begin] -->
+                                    <p class="bodytext">Tge telegestione SA è una società di servizi fondata nel 1987 con sede a Lugano/Grancia.
+                                    </p>
+                                    <p class="bodytext">Ci occupiamo e sviluppiamo in collaborazione con  importanti aziende del settore, sistemi di telegestione per impianti di  riscaldamento. Il nostro obiettivo è quello di utilizzare le piu’  moderne tecnologie di supervisione per meglio soddisfare i bisogni dei  nostri clienti.
+                                    </p>
+                                    <p class="bodytext">Spirito pionieristico, alta tecnologia e massima serietà: Questi i capisaldi della filosofia TGE telegestione.</p>
+                                    <!--  Text: [end] -->
+
                             </div>
                         </div>
                     </div>
                 </div>
+
                 </div>
 
         </section>
+
 
 
         <aside id="footer-widgets">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-3">
-                        <h3 class="footer-widget-title">Manutank</h3>
+                        <h3 class="footer-widget-title">Telegestione</h3>
                         <div class="FooterItem"><a href="index_telegestione.html" title="Home">Home</a></div>
-                        <div class="FooterItem"><a href="m-servizi.html" title="Home">Servizi</a></div>
-                        <div class="FooterItem"><a href="m-vantaggi.html" title="Home">Vantaggi dell'olio combustibile</a></div>
-                        <div class="FooterItem"><a href="m-offerta.html" title="Home">Offerta</a></div>
-                        <div class="FooterItem"><a href="m-contatti.html" title="Home">Contatti</a></div>
+                        <div class="FooterItem"><a href="azienda.html" title="Home">Azienda</a></div>
+                        <div class="FooterItem"><a href="referenze.html" title="Home">Referenza</a></div>
+                        <div class="FooterItem"><a href="contatti.html" title="Home">Contatti</a></div>
                     </div>
                     <div class="col-sm-3">
                         <h3 class="footer-widget-title">Servizi</h3>
-                        <div class="FooterItem"><a href="m-servizi.html" title="Home">Revisione cisterne</a></div>
-                        <div class="FooterItem"><a href="m-risanamento.html" title="Home">Risanamento e posa</a></div>
-                        <div class="FooterItem"><a href="m-gestitank.html" title="Home">Gestitank</a></div>
-                        <div class="FooterItem"><a href="m-tankallarm.html" title="Home">Tank Allarm & Gas Allarm</a></div>
-                        <div class="FooterItem"><a href="m-protezione.html" title="Home">Protezione delle acque</a></div>
+                        <div class="FooterItem"><a href="servizi-telegestione.html" title="Home">Telegestione</a></div>
+                        <div class="FooterItem"><a href="servizi-TAM.html" title="Home">TAM Teleallarme</a></div>
+                        <div class="FooterItem"><a href="servizi-gestitank.html" title="Home">Gestitank 2.0</a></div>
+                        <div class="FooterItem"><a href="servizi-assistenza.html" title="Home">Assistenza</a></div>
                     </div>
                     <div class="col-sm-3">
-                        <h3 class="footer-widget-title">Vantaggi dell'olio combustibile</h3>
-                        <ul>
-                            <li><a href="m-vantaggi.html">Economico</a></li>
-                            <li><a href="m-ecologico.html">Ecologico</a></li>
-                            <li><a href="m-immagazzinabile.html">Immagazzinabile</a></li>
-                            <li><a href="m-sicuro.html">Sicuro</a></li>
-                        </ul>
+                        <h3 class="footer-widget-title">Vantaggi</h3>
+
+                        <div class="FooterItem"><a href="vantaggi-risparmio.html">Risparmio</a></div>
+                        <div class="FooterItem"><a href="vantaggi-ecologia.html">Ecologia</a></div>
+                        <div class="FooterItem"><a href="vantaggi-benessere.html">Benessere</a></div>
+                        <div class="FooterItem"><a href="vantaggi-sgravio.html">Sgravio amministrativo</a></div>
+                        <div class="FooterItem"><a href="vantaggi-durata.html">Durata degli impianti</a></div>
+
                     </div>
                     <div class="col-sm-3">
                         <div class="footer-widget" style="padding-top: 50px">
 
                             <div class="row" style="padding: 0px">
                                 <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
-                                    <a href="#" class="thumbnail"><img height="500" src="assets/fileadmin/templates/manutank/img/TelegestioneC.png"
-                                                                       class="" alt="Image"></a>
+                                    <a href="../manutank/index_manutank.html" class="thumbnail"><img height="500" src="assets/fileadmin/templates/splash/img/Manutank-Logo.jpg"
+                                                                                                     class="" alt="Image"></a>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6" >
-                                    <a href="index.html" class="thumbnail"><img  height="500" src="assets/fileadmin/templates/telegestione/img/TeleenergiaC.png"
-                                                                                 class=""  alt="Image"></a>
+                                    <a href="../index.html" class="thumbnail"><img  height="500" src="assets/fileadmin/templates/telegestione/img/TeleenergiaC.png"
+                                                                                    class=""  alt="Image"></a>
                                 </div>
 
                             </div>
@@ -200,7 +223,7 @@
         </aside>
         <!-- footer-widgets -->
         <footer id="footer">
-            <p>Manutank 2011- <a href="m-legaldisclaimer.html">Legal Disclaimer</a> | <a href="m-privacypolicy.html">Privacy Policy</a> | <a href="m-impressum.html">Impressum</a></p>
+            <p>Telegestione 2011- <a href="legaldisclaimer.html">Legal Disclaimer</a> | <a href="privacypolicy.html">Privacy Policy</a> | <a href="impressum.html">Impressum</a></p>
             <p>Tel: +41 (0) 91 986 50 70 - Email: <a href="mailto: info@manutank.ch">info@manutank.ch</a> </p>
         </footer>
 
