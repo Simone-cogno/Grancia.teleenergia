@@ -1,1 +1,0 @@
-a:3:{s:7:"extlang";s:2:"it";s:8:"origFile";s:80:"typo3conf/l10n/it/belog/mod/it.locallang_mod.xml|02-08-2011 00:21:04|version=2.3";s:8:"EXT_DATA";a:3:{s:21:"mlang_labels_tablabel";s:10:"Mostra log";s:21:"mlang_labels_tabdescr";s:104:"Accesso a tutto il log dei cambiamenti. <br><em>Accesso riservato solo agli utenti di tipo 'admin'!</em>";s:14:"mlang_tabs_tab";s:3:"Log";}}

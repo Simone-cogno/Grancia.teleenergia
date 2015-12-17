@@ -3164,10 +3164,9 @@ a.thumbnail.active {
   font-family: "Muli", sans-serif;
   word-spacing: -6px;
   -webkit-text-stroke: 0;
-  background-image: url("../img/colors/green/logo.png");
   background-position: left center;
   background-repeat: no-repeat;
-  padding-left: 45px;
+  padding-left: 0px;
   color: #000;
 }
 @media (min-width: 360px) and (max-width: 768px) {

@@ -1,13 +1,6 @@
 .thumbnail:hover{
     background: linear-gradient(135deg, rgba(87, 228, 182, 0.19) 0%, rgba(82, 211, 165, 0.15) 17%, rgba(75, 197, 157, 0.1) 50%, rgba(58, 152, 118, 0.43) 90%, rgba(53, 148, 119, 0.47) 100%);;
 }
-.border-block{
-    background-color: white;
-    font-size: 9px;
-}
-.border-block h2{
-    color: #837f7f;
-}
 .active1{
     background-color: #828181;
     font-size: 9px;
@@ -17,6 +10,13 @@
     color: white!important;
 }
 
+.border-block{
+    background-color: white;
+    font-size: 9px;
+}
+.border-block h2{
+    color: #837f7f;
+}
 .border-block:hover{
     background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 20%, rgb(237, 235, 235) 50%, rgb(204, 202, 202) 90%, rgb(152, 150, 150) 100%);;
 }
